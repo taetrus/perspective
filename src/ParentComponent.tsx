@@ -30,7 +30,7 @@ const ParentComponent: React.FC = () => {
         minorStep={1000}
         regions={regions}
         increment={25}
-        tolerance={20} // Custom tolerance of 200 units
+        tolerance={45} // Custom tolerance of 200 units
       />
       <button onClick={handleAddPoint}>Add Point at 5000</button>
       <button onClick={handleRemovePoint}>Remove Point at 5000</button>

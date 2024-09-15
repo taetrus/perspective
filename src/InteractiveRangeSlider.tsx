@@ -159,7 +159,16 @@ const InteractiveRangeSlider = forwardRef<InteractiveRangeSliderHandle, Interact
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
         }}
       >
-        <div style={{ position: "relative", width: "100%", height: "140px", marginBottom: "20px" }}>
+        <div
+          style={{
+            position: "relative",
+            width: "calc(100% -40px)",
+            height: "75px",
+            // marginBottom: "20px",
+            marginLeft: "20px",
+            marginRight: "20px",
+          }}
+        >
           <div
             ref={sliderRef}
             style={{
