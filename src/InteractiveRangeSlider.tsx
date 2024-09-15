@@ -144,6 +144,7 @@ const InteractiveRangeSlider = forwardRef<InteractiveRangeSliderHandle, Interact
             width: `${((region.end - region.start) / (max - min)) * 100}%`,
             height: "100%",
             backgroundColor: region.color,
+            // borderRadius: "16px",
           }}
         />
       ));
@@ -177,7 +178,7 @@ const InteractiveRangeSlider = forwardRef<InteractiveRangeSliderHandle, Interact
               width: "100%",
               height: "32px",
               backgroundColor: "#e5e7eb",
-              borderRadius: "9999px",
+              // borderRadius: "16px",
               cursor: showTooltip ? "pointer" : "default",
             }}
             onMouseEnter={() => setShowTooltip(true)}
@@ -194,7 +195,7 @@ const InteractiveRangeSlider = forwardRef<InteractiveRangeSliderHandle, Interact
                 width: `${((value - min) / (max - min)) * 100}%`,
                 height: `${lineThickness}px`,
                 backgroundColor: "#3b82f6",
-                borderRadius: "9999px",
+                borderRadius: "16px",
                 transform: "translateY(-50%)",
               }}
             />
