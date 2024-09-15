@@ -47,98 +47,16 @@ const App = () => {
 
 The Interactive Range Slider accepts the following props:
 
-|
-Prop
-|
-Type
-|
-Default
-|
-Description
-|
-|
-
----
-
-## |
-
-## |
-
-## |
-
-|
-|
-min
-|
-number
-|
-100
-|
-The minimum value of the slider
-|
-|
-max
-|
-number
-|
-20000
-|
-The maximum value of the slider
-|
-|
-lineThickness
-|
-number
-|
-4
-|
-The thickness of the slider line
-|
-|
-majorStep
-|
-number
-|
-5000
-|
-The interval for major tick marks
-|
-|
-minorStep
-|
-number
-|
-1000
-|
-The interval for minor tick marks
-|
-|
-regions
-|
-Region[]
-|
-[]
-|
-An array of colored regions on the slider
-|
-|
-increment
-|
-number
-|
-25
-|
-The step size for value selection
-|
-|
-tolerance
-|
-number
-|
-100
-|
-The tolerance (in units) for unmarking points
-|
+| Prop          | Type     | Default | Description                                   |
+| ------------- | -------- | ------- | --------------------------------------------- |
+| min           | number   | 100     | The minimum value of the slider               |
+| max           | number   | 20000   | The maximum value of the slider               |
+| lineThickness | number   | 4       | The thickness of the slider line              |
+| majorStep     | number   | 5000    | The interval for major tick marks             |
+| minorStep     | number   | 1000    | The interval for minor tick marks             |
+| regions       | Region[] | []      | An array of colored regions on the slider     |
+| increment     | number   | 25      | The step size for value selection             |
+| tolerance     | number   | 100     | The tolerance (in units) for unmarking points |
 
 ### Region Object
 
